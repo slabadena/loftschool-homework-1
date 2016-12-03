@@ -3,33 +3,43 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/footer.css">
-	<link rel="stylesheet" href="css/header.css">
 	<link rel="stylesheet" href="css/index.css">
-	
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/author.css">
+
 	<title>Обо мне</title>
 </head>
 
 <body>
 	<div class="wrapper">
-		<header>
+		
+		<header class="header">
 
-			<div class="container">
+			<div class="container clearfix">
 				
-				<div class="container_left">
-						<div class="container_foto"><img src="imge/foto.jpg" alt="Фото"></div>
-						<div class="container_name">Константин Констанитов</div>
+				<div class="header__left">
+
+					<div class="author clearfix">
+						<div class="author__foto"><img src="imge/foto.jpg" alt="Фото"></div>
+						<div class="author__name">Константин Констанитов</div>
+					</div>
+
 				</div>
 
-				<div class="container_right">
-				<a href="" class="contacts">Мои контакты</a>
-					
-					<div class="my_contact">
-						<ul>
-							<li><a href=""></a></li>
-							<li><a href=""></a></li>
-							<li><a href=""></a></li>
-						</ul>
+				<div class="header__right">
+
+					<div class="contacts">
+						<a href="" class="contacts__link">Мои контакты</a>
+						
+						<div class="contact__drop">
+							<ul>
+								<li><a href="mailto:slabadena@mail.ru">slabadena@mail.ru</a></li>
+								<li><a href="tel:+79218898989">+7 921 889 89 89</a></li>
+								<li><a href="#">lena</a></li>
+							</ul>
+						</div>
+
 					</div>
 
 				</div>

@@ -1,0 +1,17 @@
+.author {
+	
+}
+
+.author__foto {
+	width: 60px;
+	height: 60px;
+	float:  left;
+	border:  2px solid #bebebe;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.author__name {
+	float: left;
+	line-height: 60px;
+}
