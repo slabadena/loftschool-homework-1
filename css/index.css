@@ -5,6 +5,11 @@ body,html {
 	display: block;
 }
 
+body {
+	background: #f6f6f6;
+}
+
+
 .wrapper {
 	min-height: 100%;
 }
@@ -15,8 +20,10 @@ body,html {
 	height: 50px;
 } 
 
-body {
-	background: #f6f6f6;
+.container {
+	width: 980px;
+	padding: 0 20px;
+	margin: 0 auto;
 }
 
 ul {
@@ -24,6 +31,6 @@ ul {
 	margin: 0;
 }
 
-li{
+li {
 	list-style: none;
 }
